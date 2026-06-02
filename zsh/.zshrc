@@ -60,3 +60,6 @@ setopt HIST_IGNORE_DUPS
 setopt HIST_IGNORE_ALL_DUPS
 
 alias ls='ls -a'
+
+zstyle ':completion:*:ssh:*' tag-order hosts
+zstyle ':completion:*:ssh:*' hosts $(grep '^Host ' ~/.ssh/config | grep -v '\*' | awk '{print $2}')

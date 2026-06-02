@@ -40,3 +40,23 @@ bindkey '^@' fzf-tab-complete
 # Pular palavras rapidamente usando Ctrl + Setas
 bindkey '^[[1;5D' backward-word
 bindkey '^[[1;5C' forward-word
+
+# Arquivo de histórico
+HISTFILE=~/.zsh_history
+HISTSIZE=10000
+SAVEHIST=10000
+
+# NÃO sobrescrever histórico
+setopt APPEND_HISTORY
+
+# Salvar imediatamente (não só ao sair)
+setopt INC_APPEND_HISTORY
+
+# Compartilhar histórico entre terminais
+setopt SHARE_HISTORY
+
+# Evitar duplicatas
+setopt HIST_IGNORE_DUPS
+setopt HIST_IGNORE_ALL_DUPS
+
+alias ls='ls -a'

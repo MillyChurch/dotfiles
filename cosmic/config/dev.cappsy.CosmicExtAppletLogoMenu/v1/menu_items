@@ -1,0 +1,99 @@
+(
+    items: [
+        (
+            item_type: LaunchAction,
+            label: Some("Sobre o sistema"),
+            command: Some("cosmic-settings about"),
+        ),
+        (
+            item_type: Divider,
+            label: None,
+            command: None,
+        ),
+        (
+            item_type: LaunchAction,
+            label: Some("Aplicações"),
+            command: Some("cosmic-app-library"),
+        ),
+        (
+            item_type: LaunchAction,
+            label: Some("Lançador"),
+            command: Some("cosmic-launcher"),
+        ),
+        (
+            item_type: LaunchAction,
+            label: Some("Áreas de Trabalho"),
+            command: Some("cosmic-workspaces"),
+        ),
+        (
+            item_type: Divider,
+            label: None,
+            command: None,
+        ),
+        (
+            item_type: LaunchAction,
+            label: Some("Terminal"),
+            command: Some("cosmic-term"),
+        ),
+        (
+            item_type: LaunchAction,
+            label: Some("Arquivos"),
+            command: Some("cosmic-files"),
+        ),
+        (
+            item_type: LaunchAction,
+            label: Some("Programas"),
+            command: Some("cosmic-store"),
+        ),
+        (
+            item_type: LaunchAction,
+            label: Some("Configurações"),
+            command: Some("cosmic-settings"),
+        ),
+        (
+            item_type: Divider,
+            label: None,
+            command: None,
+        ),
+        (
+            item_type: PowerAction,
+            label: Some("Bloquear"),
+            command: Some("Lock"),
+        ),
+        (
+            item_type: PowerAction,
+            label: Some("Sair"),
+            command: Some("Logout"),
+        ),
+        (
+            item_type: PowerAction,
+            label: Some("Suspender"),
+            command: Some("Suspend"),
+        ),
+        (
+            item_type: Divider,
+            label: None,
+            command: None,
+        ),
+        (
+            item_type: PowerAction,
+            label: Some("Reiniciar"),
+            command: Some("Restart"),
+        ),
+        (
+            item_type: PowerAction,
+            label: Some("Desligar"),
+            command: Some("Shutdown"),
+        ),
+        (
+            item_type: Divider,
+            label: None,
+            command: None,
+        ),
+        (
+            item_type: LaunchAction,
+            label: Some("Configurações do menu..."),
+            command: Some("cosmic-ext-logomenu-settings"),
+        ),
+    ],
+)

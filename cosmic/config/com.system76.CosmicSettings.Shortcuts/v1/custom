@@ -1,0 +1,62 @@
+{
+    (
+        modifiers: [
+            Super,
+        ],
+        key: "semicolon",
+    ): System(AppLibrary),
+    (
+        modifiers: [
+            Super,
+        ],
+        key: "Tab",
+    ): System(WorkspaceOverview),
+    (
+        modifiers: [
+            Ctrl,
+            Shift,
+        ],
+        key: "Tab",
+        description: Some("wallpaper"),
+    ): Spawn("/home/millychurch/.scripts/rofi_wallpapers.sh"),
+    (
+        modifiers: [
+            Super,
+            Shift,
+        ],
+        key: "a",
+    ): PreviousWorkspace,
+    (
+        modifiers: [
+            Super,
+        ],
+        key: "a",
+    ): Disable,
+    (
+        modifiers: [
+            Super,
+            Ctrl,
+            Shift,
+        ],
+        key: "Up",
+    ): Disable,
+    (
+        modifiers: [
+            Super,
+        ],
+        key: "e",
+    ): Spawn("cosmic-files"),
+    (
+        modifiers: [
+            Shift,
+        ],
+        key: "a",
+    ): Disable,
+    (
+        modifiers: [
+            Super,
+            Shift,
+        ],
+        key: "s",
+    ): NextWorkspace,
+}

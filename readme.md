@@ -101,3 +101,7 @@ Depois disso, reinicie o terminal ou reconecte via SSH.
 * Em servidores (SSH), o prompt pode ficar diferente se não houver Nerd Fonts.
 * Os symlinks removem arquivos antigos antes de criar novos.
 ---
+
+# COSMIC Desktop
+chmod +x ~/.dotfiles/cosmic/sync.sh
+~/.dotfiles/cosmic/sync.sh push

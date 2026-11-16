@@ -60,6 +60,15 @@ setopt HIST_IGNORE_DUPS
 setopt HIST_IGNORE_ALL_DUPS
 
 alias ls='ls -a'
+alias yt='yt-dlp'
 
 zstyle ':completion:*:ssh:*' tag-order hosts
 zstyle ':completion:*:ssh:*' hosts $(grep '^Host ' ~/.ssh/config | grep -v '\*' | awk '{print $2}')
+
+# Created by `pipx` on 2026-07-14 00:50:59
+export PATH="$PATH:/home/millychurch/.local/bin"
+. "/home/millychurch/.deno/env"
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion

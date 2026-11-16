@@ -28,6 +28,8 @@ TARGETS=(
 
     # Temas, Aparência e Wallpaper
     "com.system76.CosmicBackground"
+    "com.system76.CosmicBackground.Dark"
+    "com.system76.CosmicBackground.Light"
     "com.system76.CosmicTheme.Dark"
     "com.system76.CosmicTheme.Dark.Builder"
     "com.system76.CosmicTheme.Light"

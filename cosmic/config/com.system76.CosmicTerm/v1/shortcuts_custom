@@ -1,0 +1,14 @@
+{
+    (
+        modifiers: [
+            Ctrl,
+        ],
+        key: "T",
+    ): TabNew,
+    (
+        modifiers: [
+            Ctrl,
+        ],
+        key: "W",
+    ): TabClose,
+}

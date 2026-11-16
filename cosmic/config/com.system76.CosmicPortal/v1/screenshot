@@ -1,0 +1,10 @@
+(
+    save_location: Clipboard,
+    choice: Rectangle,
+    last_rectangle: Some((
+        left: 511,
+        top: 355,
+        right: 1010,
+        bottom: 716,
+    )),
+)

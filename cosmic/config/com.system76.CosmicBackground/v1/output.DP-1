@@ -1,0 +1,9 @@
+(
+    output: "DP-1",
+    source: Path("/home/millychurch/Downloads/1292037.png"),
+    filter_by_theme: false,
+    rotation_frequency: 300,
+    filter_method: Lanczos,
+    scaling_mode: Zoom,
+    sampling_method: Alphanumeric,
+)

@@ -102,6 +102,20 @@ Depois disso, reinicie o terminal ou reconecte via SSH.
 * Os symlinks removem arquivos antigos antes de criar novos.
 ---
 
-# COSMIC Desktop
+#### COSMIC Desktop e Wallpapers (apenas desktop)
+```bash
+# Linkar pasta de wallpapers no diretório padrão XDG
+mkdir -p ~/.local/share
+rm -rf ~/.local/share/backgrounds
+ln -s ~/.dotfiles/wallpapers ~/.local/share/backgrounds
+
+# Aplicar configurações do COSMIC
 chmod +x ~/.dotfiles/cosmic/sync.sh
 ~/.dotfiles/cosmic/sync.sh push
+
+# Ajustar caminhos absolutos dos wallpapers para o $HOME da máquina atual e recarregar
+sed -i "s|/home/[^/]*/.dotfiles|$HOME/.dotfiles|g" \
+  ~/.config/cosmic/com.system76.CosmicBackground*/v1/* \
+  ~/.config/cosmic/com.system76.CosmicSettings.Wallpaper/v1/* 2>/dev/null || true
+pkill cosmic-bg || true
+```

@@ -1,0 +1,14 @@
+user_pref("browser.theme.toolbar-theme", 1);
+user_pref("browser.uiCustomization.state", "{\"placements\":{\"widget-overflow-fixed-list\":[],\"unified-extensions-area\":[\"jid1-niffy2ca8fy1tg_jetpack-browser-action\",\"chrome-gnome-shell_gnome_org-browser-action\",\"_74186d10-f6f2-4f73-b33a-83bb72e50654_-browser-action\",\"firefoxcolor_mozilla_com-browser-action\",\"myallychou_gmail_com-browser-action\",\"_6749bee7-1bb6-4207-95e7-35a64d6cd189_-browser-action\",\"_6458ac08-a9d7-4e42-a1b0-f0c43bf90f7d_-browser-action\"],\"nav-bar\":[\"back-button\",\"forward-button\",\"stop-reload-button\",\"vertical-spacer\",\"urlbar-container\",\"downloads-button\",\"unified-extensions-button\",\"sidebar-button\",\"reset-pbm-toolbar-button\",\"smartwindow-group-tabs-button\",\"ai-window-toggle\"],\"toolbar-menubar\":[\"menubar-items\"],\"TabsToolbar\":[],\"vertical-tabs\":[\"tabbrowser-tabs\"],\"PersonalToolbar\":[\"import-button\",\"personal-bookmarks\"]},\"seen\":[\"developer-button\",\"screenshot-button\",\"jid1-niffy2ca8fy1tg_jetpack-browser-action\",\"chrome-gnome-shell_gnome_org-browser-action\",\"_74186d10-f6f2-4f73-b33a-83bb72e50654_-browser-action\",\"firefoxcolor_mozilla_com-browser-action\",\"myallychou_gmail_com-browser-action\",\"_6749bee7-1bb6-4207-95e7-35a64d6cd189_-browser-action\",\"_6458ac08-a9d7-4e42-a1b0-f0c43bf90f7d_-browser-action\",\"reset-pbm-toolbar-button\",\"ai-window-toggle\",\"smartwindow-group-tabs-button\"],\"dirtyAreaCache\":[\"nav-bar\",\"vertical-tabs\",\"PersonalToolbar\",\"toolbar-menubar\",\"TabsToolbar\",\"unified-extensions-area\"],\"currentVersion\":28,\"newElementCount\":8}");
+user_pref("extensions.activeThemeID", "{3ff233e1-75f4-4316-9af6-c14b800c6215}");
+user_pref("layout.css.prefers-color-scheme.content-override", 0);
+user_pref("sidebar.backupState", "{\"command\":\"\",\"panelOpen\":false,\"bookmarksExpandedFolders\":[],\"launcherWidth\":50,\"expandedLauncherWidth\":147,\"launcherExpanded\":false,\"userLauncherVisible\":true,\"pinnedTabsHeight\":0,\"collapsedPinnedTabsHeight\":0,\"toolsHeight\":46.66667175292969,\"collapsedToolsHeight\":46.66667175292969}");
+user_pref("sidebar.main.tools", ",passwords");
+user_pref("sidebar.new-sidebar.has-used", true);
+user_pref("sidebar.newTool.migration.passwords", "{\"visibilityPref\":\"browser.contextual-password-manager.enabled\",\"alreadyShown\":true}");
+user_pref("sidebar.nimbus", "upgraded-sidebar-rollout-without-messaging:rollout-treatment");
+user_pref("sidebar.old-sidebar.has-used", true);
+user_pref("sidebar.position_start", false);
+user_pref("sidebar.verticalTabs", true);
+user_pref("sidebar.verticalTabs.dragToPinPromo.dismissed", true);
+user_pref("toolkit.legacyUserProfileCustomizations.stylesheets", true);
